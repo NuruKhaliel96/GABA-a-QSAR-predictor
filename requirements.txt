@@ -1,5 +1,5 @@
-streamlit==1.32.0
-scikit-learn==1.4.1.post1
+streamlit
+scikit-learn
 rdkit
 joblib
-numpy==1.26.4
+numpy
