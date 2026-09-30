@@ -12,7 +12,7 @@ def load_model():
 model = load_model()
 
 # 2. Build the Web Interface
-st.title("🧪 GABA-A Ligand Potency Predictor")
+st.title(" GABA-A Ligand Potency Predictor")
 st.markdown("""
 This machine learning application predicts the $pIC_{50}$ binding affinity of compounds for the GABA-A receptor. 
 It utilizes a Stacking Regressor (Random Forest + Support Vector Regression, synthesized via Ridge Regression) trained on ChEMBL bioactivity data.
